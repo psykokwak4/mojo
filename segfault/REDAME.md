@@ -1,6 +1,8 @@
 #### Issue
 Mojo attempts to load struct from stale (?) mojopkg cache
 
+ah: https://github.com/modularml/mojo/issues/613
+
 #### Repro steps
 
 1. Create a folder with name `package` which contains 2 structs with `from .<filename> import *` syntax
